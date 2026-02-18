@@ -1,0 +1,36 @@
+# --- PyTorch with CUDA 12.1 Support (Vital for RTX 3080) ---
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+
+# --- Core AI Models ---
+# WhisperX for high-speed audio transcription
+whisperx
+
+# Manga-OCR for Japanese text recognition
+manga-ocr
+
+# Translation Models (MarianMT runs via Transformers)
+transformers
+sentencepiece
+sacremoses
+
+# --- Video & Image Processing ---
+# Standard OpenCV for frame extraction
+opencv-python
+
+# Image manipulation (Manga-OCR dependency, but good to be explicit)
+Pillow
+numpy
+
+# --- Subtitle Handling ---
+# The library we discussed for .ass/.srt creation
+pysubs2
+
+# --- Utilities ---
+# For nice progress bars in your terminal
+tqdm 
+
+# For robust file path handling
+pathlib
